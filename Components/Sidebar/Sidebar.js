@@ -9,7 +9,9 @@ export default function Sidebar() {
     
         <nav className="sidenav">
 
-            <img src={iconDashboard} />
+            <a href="./">
+                <img src={iconDashboard} />
+            </a>
 
             <Link to="/"> FINANCES </Link>
             <Link to="/dashboardEmployees"> EMPLOI </Link>
